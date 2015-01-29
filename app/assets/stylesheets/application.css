@@ -14,3 +14,36 @@
  *= require todomvc-common/base.css
  *= require_self
  */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "bootstrap/theme";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100);
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-weight: 300; 
+	letter-spacing: .1em;
+}
+
+nav li {
+	font-weight: 100; 
+}
+
+#welcome-page {
+	text-align: center; 
+}
+
+.my-name {
+	color: #E80025;
+}
+
+#welcome {
+	display: none;
+	color: #E80025; 
+}

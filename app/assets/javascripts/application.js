@@ -18,3 +18,11 @@
 //= require angular-route
 //= require angular-resource
 //= require_tree .
+
+$(document).ready(function() {
+
+	$("input").on('keyup', function(){
+		$('#welcome').fadeIn(1500);
+	});
+
+});
