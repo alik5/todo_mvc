@@ -5,5 +5,7 @@ class ApplicationController < ActionController::Base
 
   def index
   end
-  
+
+  def resume
+  end
 end

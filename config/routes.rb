@@ -1,6 +1,7 @@
 TodoMvc::Application.routes.draw do
 
   root "application#index"
+  get 'resume' => "application#resume"
 
   namespace :api, defaults: {format: :json} do
     namespace :v1 do

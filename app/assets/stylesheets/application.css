@@ -15,11 +15,7 @@
  *= require_self
  */
 
-@import "bootstrap-sprockets";
-@import "bootstrap";
-@import "bootstrap/theme";
-@import "font-awesome-sprockets";
-@import "font-awesome";
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100);
 
 body {
@@ -29,6 +25,7 @@ body {
 h1 {
 	font-weight: 300; 
 	letter-spacing: .1em;
+	line-height: .5em; 
 }
 
 nav li {
@@ -47,3 +44,36 @@ nav li {
 	display: none;
 	color: #E80025; 
 }
+
+.me {
+	width: 65%;
+	margin-left: 50px;
+}
+
+.list {
+	display: inline;
+	color: #680011;
+}
+
+.list > li {
+	text-align: center; 
+	padding: 10px;
+	list-style: none; 
+	display: inline-block; 
+	font-size: 1.5em; 
+
+}
+
+a {
+	text-decoration: none; 
+	color: #680011;
+}
+
+a:hover {
+	color: #F50027;
+}
+
+.resume {
+	width: 125%;
+}
+

@@ -2,16 +2,24 @@
   <div class="row">
   <div class="col-md-12" id="welcome-page">
     <h1>Hi There! My Name is <span class="my-name"> Ali FitzGerald</span>.</h1>
-    <h2> What's your name? <input ng-model="name" id="input" type="text" /><h2>
-      <span id="welcome"> Welcome {{name}} </span>
+    <div class="me"><%= image_tag ("me.png"), :class => 'me' %> </div><h2> What's your name? <input ng-model="name" id="input" type="text" /><h2>
+      <span id="welcome"> How'd you find me, {{name}} !?! </span>
     </div>
     <div class ="description">
     <p>I am a freelance ruby/rails developer, copywriter, blogger and designer. I'm your virtual Target. You can find it all here! <%= mail_to "alikfitz@gmail.com", "Email Me" %> for job inquiries. Check out my work below. <p>
     </div>
-      <div>
-      <%= link_to "My Resume" %>
-      <%= link_to "Other Websites" %>
-      <%= link_to "Blogging" %>
+    <div>
+        <ul class="list">
+        <li><%= link_to "My Resume", "resume" %></li>
+        <li><%= link_to "Other Websites", "https://www.ghostwrite.io"  %></li>
+        <li><%= link_to "Blogging", "https://www.ghostwrite.io/blog" %></li>
+      </ul>
+    </div>
+    <div>
+      <ul class="list">
+        <li><i class="fa fa-linkedin-square"></i></li>
+       
+      </ul>
     </div>
   </div>
 </div>
