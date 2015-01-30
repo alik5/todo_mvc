@@ -43,6 +43,7 @@ nav li {
 #welcome {
 	display: none;
 	color: #E80025; 
+	font-weight: 300; 
 }
 
 .me {
@@ -75,5 +76,10 @@ a:hover {
 
 .resume {
 	width: 125%;
+}
+
+.description {
+	font-size: 1.2em; 
+	line-height: 1.2em; 
 }
 
